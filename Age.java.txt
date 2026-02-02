@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class scan {
+    
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What year was your birthday?");
+        int birth_year = scanner.nextInt();
+        
+        System.out.println("And what year is it right now?");
+        int current_year = scanner.nextInt();
+        
+        int age = current_year - birth_year;
+        System.out.println("This year, you will be turning " + age + "years old");
+    }
+}
+
+/* Output:
+What year was your birthday?
+2004
+And what year is it right now?
+2026
+This year, you will be turning 22years old
+
+=== Code Execution Successful ===
+*/
