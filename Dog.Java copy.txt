@@ -1,0 +1,18 @@
+public class Dog{ // class that CREATES Dog
+    private int age; // Declarations of data types for class
+    private String name; //Private habit
+    
+    
+    public Dog(String name, int age){ // Constructor takes in arguements
+        this.name = name; //this. = public class
+        this.age = age; //Constructors don't have a class
+    }
+    
+    public static void main (String [] args){ //main that runs program
+        Dog myDog = new Dog("Sunshine", 12); // Creating new object 
+     
+        System.out.println("My dog's name is " + myDog.name + ", and she is " + myDog.age + " years old."); // Sentence concatenation 
+    }
+    
+}
+// Out put : My dog's name is Sunshine, and she is 12 years old.	
